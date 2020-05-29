@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nhiemvus",
+  "info": {
+    "name": "nhiemvu"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "noidung": {
+      "type": "string"
+    },
+    "batdau": {
+      "type": "date"
+    },
+    "ketthuc": {
+      "type": "date"
+    },
+    "organize": {
+      "model": "organize",
+      "via": "nhiemvus"
+    },
+    "project": {
+      "model": "project",
+      "via": "nhiemvus"
+    }
+  }
+}

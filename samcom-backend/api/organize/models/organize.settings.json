@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizes",
+  "info": {
+    "name": "Organize"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "articles": {
+      "via": "organize",
+      "collection": "article"
+    },
+    "nhiemvus": {
+      "via": "organize",
+      "collection": "nhiemvu"
+    }
+  }
+}

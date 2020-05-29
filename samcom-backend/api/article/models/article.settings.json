@@ -27,17 +27,9 @@
       "plugin": "upload",
       "required": true
     },
-    "Author": {
-      "type": "string",
-      "required": true
-    },
     "Display": {
       "type": "boolean",
       "default": false,
-      "required": true
-    },
-    "published_at": {
-      "type": "date",
       "required": true
     },
     "content": {
@@ -46,6 +38,14 @@
     },
     "category": {
       "model": "category",
+      "via": "articles"
+    },
+    "authors": {
+      "via": "articles",
+      "collection": "author"
+    },
+    "organize": {
+      "model": "organize",
       "via": "articles"
     }
   }

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nhiemvus",
+      "handler": "nhiemvu.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nhiemvus/count",
+      "handler": "nhiemvu.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nhiemvus/:id",
+      "handler": "nhiemvu.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nhiemvus",
+      "handler": "nhiemvu.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nhiemvus/:id",
+      "handler": "nhiemvu.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nhiemvus/:id",
+      "handler": "nhiemvu.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
