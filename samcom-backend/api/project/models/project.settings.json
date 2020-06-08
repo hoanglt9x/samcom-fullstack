@@ -18,13 +18,13 @@
     "end": {
       "type": "date"
     },
-    "tasks": {
-      "via": "project",
-      "collection": "task"
-    },
     "nhiemvus": {
       "via": "project",
       "collection": "nhiemvu"
+    },
+    "nhiemvukythuats": {
+      "via": "project",
+      "collection": "nhiemvukythuat"
     }
   }
 }

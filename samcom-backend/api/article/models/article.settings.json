@@ -29,24 +29,28 @@
     },
     "Display": {
       "type": "boolean",
-      "default": false,
+      "default": true,
       "required": true
     },
     "content": {
       "type": "richtext",
-      "required": true
+      "required": false
     },
     "category": {
       "model": "category",
       "via": "articles"
     },
     "authors": {
-      "via": "articles",
-      "collection": "author"
+      "collection": "author",
+      "via": "articles"
     },
     "organize": {
       "model": "organize",
       "via": "articles"
+    },
+    "mota": {
+      "type": "text",
+      "required": true
     }
   }
 }

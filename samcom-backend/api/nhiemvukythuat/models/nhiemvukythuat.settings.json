@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "nhiemvus",
+  "collectionName": "nhiemvukythuats",
   "info": {
-    "name": "nhiemvu"
+    "name": "nhiemvukythuat"
   },
   "options": {
     "increments": true,
@@ -10,7 +10,7 @@
   },
   "attributes": {
     "noidung": {
-      "type": "string"
+      "type": "text"
     },
     "batdau": {
       "type": "date"
@@ -18,30 +18,24 @@
     "ketthuc": {
       "type": "date"
     },
-    "organize": {
-      "model": "organize",
-      "via": "nhiemvus"
-    },
-    "project": {
-      "model": "project",
-      "via": "nhiemvus"
-    },
-    "KhoiLuong": {
-      "type": "decimal"
-    },
-    "KhoiLuongHoanThanh": {
-      "type": "decimal"
-    },
-    "daHoanThanh": {
+    "dahoanthanh": {
       "type": "boolean",
       "default": false
     },
-    "ghiChu": {
+    "ghichu": {
       "type": "text"
     },
     "Display": {
       "type": "boolean",
       "default": false
+    },
+    "project": {
+      "model": "project",
+      "via": "nhiemvukythuats"
+    },
+    "organize": {
+      "model": "organize",
+      "via": "nhiemvukythuats"
     }
   }
 }

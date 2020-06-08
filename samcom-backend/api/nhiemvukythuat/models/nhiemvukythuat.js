@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `task` model.
+ * Lifecycle callbacks for the `nhiemvukythuat` model.
  */
 
 module.exports = {

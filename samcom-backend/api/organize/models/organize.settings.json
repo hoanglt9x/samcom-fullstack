@@ -19,6 +19,10 @@
     "nhiemvus": {
       "via": "organize",
       "collection": "nhiemvu"
+    },
+    "nhiemvukythuats": {
+      "via": "organize",
+      "collection": "nhiemvukythuat"
     }
   }
 }

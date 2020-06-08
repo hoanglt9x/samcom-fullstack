@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/tasks",
-      "handler": "task.find",
+      "path": "/nhiemvukythuats",
+      "handler": "nhiemvukythuat.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tasks/count",
-      "handler": "task.count",
+      "path": "/nhiemvukythuats/count",
+      "handler": "nhiemvukythuat.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/tasks/:id",
-      "handler": "task.findOne",
+      "path": "/nhiemvukythuats/:id",
+      "handler": "nhiemvukythuat.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/tasks",
-      "handler": "task.create",
+      "path": "/nhiemvukythuats",
+      "handler": "nhiemvukythuat.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/tasks/:id",
-      "handler": "task.update",
+      "path": "/nhiemvukythuats/:id",
+      "handler": "nhiemvukythuat.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/tasks/:id",
-      "handler": "task.delete",
+      "path": "/nhiemvukythuats/:id",
+      "handler": "nhiemvukythuat.delete",
       "config": {
         "policies": []
       }

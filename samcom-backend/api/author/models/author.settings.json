@@ -13,7 +13,7 @@
       "type": "string"
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -27,8 +27,8 @@
       "type": "string"
     },
     "articles": {
-      "collection": "article",
       "via": "authors",
+      "collection": "article",
       "dominant": true
     },
     "organize": {
